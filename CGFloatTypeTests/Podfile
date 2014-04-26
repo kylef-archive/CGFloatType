@@ -1,0 +1,9 @@
+workspace '../CGFloatType.xcworkspace'
+
+target 'CGFloatTypeTests' do
+  pod 'CGFloatType', :path => '../'
+
+  pod 'Expecta'
+  pod 'Specta'
+end
+
