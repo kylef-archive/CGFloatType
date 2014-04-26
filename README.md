@@ -1,7 +1,7 @@
 CGFloatType
 ===========
 
-[![Build Status](https://travis-ci.org/kylef/CGFloatType.png?branch=master)](https://travis-ci.org/kylef/CGFloatType)
+[![Build Status](https://travis-ci.org/kylef/CGFloatType.svg?branch=master)](https://travis-ci.org/kylef/CGFloatType)
 
 It's easy to forget that `CGFloat` may actually be a `double` despite it's
 name. On 64-bit systems, where `CGFLOAT_IS_DOUBLE` is set to 1 it will actually
