@@ -18,7 +18,7 @@ functions which accept a `CGFloat`.
 This helps you change:
 
 ```objective-c
-#ifdef CGFLOAT_IS_DOUBLE
+#if CGFLOAT_IS_DOUBLE
   CGFloat points = ceil(pointsPerMinute * durationMinutes);
 #else
   CGFloat points = ceilf(pointsPerMinute * durationMinutes);
