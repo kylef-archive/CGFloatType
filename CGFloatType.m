@@ -7,6 +7,40 @@
 
 #import "CGFloatType.h"
 
+#pragma mark - CGFloat Conversion
+
+CGFloat CGFloatWithInteger(NSInteger value) {
+    return [@(value) CGFloatValue];
+}
+
+CGFloat CGFloatWithUnsignedInteger(NSUInteger value) {
+    return [@(value) CGFloatValue];
+}
+
+CGFloat CGFloatWithInt(int value) {
+    return [@(value) CGFloatValue];
+}
+
+CGFloat CGFloatWithUnsignedInt(unsigned int value) {
+    return [@(value) CGFloatValue];
+}
+
+CGFloat CGFloatWithDouble(double value) {
+#if CGFLOAT_IS_DOUBLE
+    return value;
+#else
+    return [@(value) CGFloatValue];
+#endif
+}
+
+CGFloat CGFloatWithFloat(float value) {
+#if CGFLOAT_IS_DOUBLE
+    return [@(value) CGFloatValue];
+#else
+    return value;
+#endif
+}
+
 #pragma mark - CGFloat NSNumber
 
 @implementation NSNumber (CGFloatType)

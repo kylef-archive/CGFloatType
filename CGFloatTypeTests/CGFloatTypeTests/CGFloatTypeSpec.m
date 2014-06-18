@@ -13,6 +13,47 @@
 
 SpecBegin(CGFloatType)
 
+describe(@"CGFloat conversion methods", ^{
+    it(@"should convert an NSInteger to a CGFloat", ^{
+        NSInteger value = 32;
+        CGFloat cgfloat = CGFloatWithInteger(value);
+
+        expect(cgfloat).to.equal(32.0);
+    });
+
+    it(@"should convert an NSUInteger to a CGFloat", ^{
+        NSUInteger value = 32;
+        CGFloat cgfloat = CGFloatWithUnsignedInteger(value);
+
+        expect(cgfloat).to.equal(32.0);
+    });
+
+    it(@"should convert an int to a CGFloat", ^{
+        int value = 32;
+        CGFloat cgfloat = CGFloatWithInt(value);
+
+        expect(cgfloat).to.equal(32.0);
+    });
+    it(@"should convert an unsigned int to a CGFloat", ^{
+        unsigned int value = 32;
+        CGFloat cgfloat = CGFloatWithUnsignedInt(value);
+
+        expect(cgfloat).to.equal(32.0);
+    });
+    it(@"should convert an double to a CGFloat", ^{
+        double value = 32.0;
+        CGFloat cgfloat = CGFloatWithDouble(value);
+
+        expect(cgfloat).to.equal(32.0);
+    });
+    it(@"should convert an float to a CGFloat", ^{
+        float value = 32.0f;
+        CGFloat cgfloat = CGFloatWithFloat(value);
+
+        expect(cgfloat).to.equal(32.0);
+    });
+});
+
 describe(@"NSNumber", ^{
     it(@"should create a number with a CGFloat", ^{
         NSNumber *number = [NSNumber numberWithCGFloat:CGFLOAT_MAX];

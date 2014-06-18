@@ -7,6 +7,29 @@
 
 #import <Foundation/Foundation.h>
 
+#pragma mark - CGFloat conversion
+
+/// Returns a CGFloat from an NSInteger
+CGFloat CGFloatWithInteger(NSInteger value);
+
+/// Returns a CGFloat from an NSUInteger
+CGFloat CGFloatWithUnsignedInteger(NSUInteger value);
+
+/// Returns a CGFloat from an int
+CGFloat CGFloatWithInt(int value);
+
+/// Returns a CGFloat from an unsigned int
+CGFloat CGFloatWithUnsignedInt(unsigned int value);
+
+/// Returns a CGFloat from a double
+CGFloat CGFloatWithDouble(double value);
+
+/// Returns a CGFloat from a float
+CGFloat CGFloatWithFloat(float value);
+
+
+#pragma mark - NSNumber+CGFloatType
+
 @interface NSNumber (CGFloatType)
 
 /** Creates and returns an NSNumber object containing a given value, treating it as a float or a double depending on your system.
