@@ -1,0 +1,4 @@
+coverage_service: coveralls
+xcodeproj: CGFloatTypeTests/CGFloatType.xcodeproj
+ignore:
+  - CGFloatTypeTests
