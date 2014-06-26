@@ -1,3 +1,5 @@
+require 'slather'
+
 workspace '../CGFloatType.xcworkspace'
 
 target 'CGFloatTypeTests' do
@@ -7,3 +9,4 @@ target 'CGFloatTypeTests' do
   pod 'Specta'
 end
 
+Slather.prepare_pods(self)

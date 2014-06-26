@@ -1,4 +1,6 @@
 coverage_service: coveralls
 xcodeproj: CGFloatTypeTests/CGFloatType.xcodeproj
+source_directory: ./
 ignore:
-  - CGFloatTypeTests
+  - CGFloatTypeTests/*
+  - "*/Pods/*"
