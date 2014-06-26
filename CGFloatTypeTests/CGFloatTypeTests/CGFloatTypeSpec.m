@@ -133,7 +133,7 @@ describe(@"CGFloat trigonometric functions", ^{
     });
 
     it(@"should compute the principal value of the CGFloat arc tangent of y/x", ^{
-        CGFloat value = atan2(5, 5);
+        CGFloat value = atan2CGFloat(5, 5);
 
 #if CGFLOAT_IS_DOUBLE
         expect(value).to.equal(0.7853981633974483);
