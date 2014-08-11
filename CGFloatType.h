@@ -59,6 +59,9 @@ extern CGFloat ceilCGFloat(CGFloat x);
 /// Round to largest integral value less than or equal to x
 extern CGFloat floorCGFloat(CGFloat x);
 
+/// Round to closest integral value to x
+extern CGFloat roundCGFloat(CGFloat x);
+
 #pragma mark - CGFloat Trigonometric Functions
 
 /// Computes the cosine of x (measured in radians)

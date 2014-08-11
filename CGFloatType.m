@@ -89,6 +89,14 @@ extern CGFloat floorCGFloat(CGFloat x) {
 #endif
 }
 
+extern CGFloat roundCGFloat(CGFloat x) {
+#if CGFLOAT_IS_DOUBLE
+    return round(x);
+#else
+    return roundf(x);
+#endif	
+}
+
 #pragma mark - CGFloat Trigonometric Functions
 
 CGFloat cosCGFloat(CGFloat x) {
