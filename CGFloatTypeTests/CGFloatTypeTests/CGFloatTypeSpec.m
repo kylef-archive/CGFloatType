@@ -80,6 +80,16 @@ describe(@"CGFloat Rounding and Remainder Functions", ^{
         CGFloat value = ceilCGFloat(5.2);
         expect(value).to.equal(6.0);
     });
+    
+    it(@"should round to the closest (smallest in this case) integral to CGFloat x", ^{
+        CGFloat value = roundCGFloat(5.2);
+        expect(value).to.equal(5.0);
+    });
+    
+    it(@"should round to the closest (largest in this case) integral to CGFloat x", ^{
+        CGFloat value = roundCGFloat(5.6);
+        expect(value).to.equal(6.0);
+    });
 });
 
 describe(@"CGFloat trigonometric functions", ^{
