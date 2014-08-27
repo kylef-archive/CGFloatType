@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = 'CGFloatType'
-  spec.version = '1.0.1'
+  spec.version = '1.0.2'
   spec.summary = 'Provides various methods and functions to deal with CGFloat on 64-bit systems (CGFLOAT_IS_DOUBLE).'
 
   spec.description  = <<-DESC
