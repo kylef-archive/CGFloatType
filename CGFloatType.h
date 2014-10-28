@@ -84,3 +84,8 @@ extern CGFloat atanCGFloat(CGFloat x);
 
 /// Computes the principal value of the arc tangent of y/x, using the signs of both arguments to determine the quadrant of the return value.
 extern CGFloat atan2CGFloat(CGFloat y, CGFloat x);
+
+#pragma mark - CGFloat Absolute Value Functions
+
+/// Return the absolute value (magnitude) of x
+extern CGFloat absCGFloat(CGFloat x);

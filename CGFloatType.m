@@ -155,3 +155,12 @@ CGFloat atan2CGFloat(CGFloat y, CGFloat x) {
 #endif
 }
 
+#pragma mark - CGFloat Absolute Value Functions
+
+CGFloat absCGFloat(CGFloat x) {
+#if CGFLOAT_IS_DOUBLE
+    return fabs(x);
+#else
+    return fabsf(x);
+#endif
+}
