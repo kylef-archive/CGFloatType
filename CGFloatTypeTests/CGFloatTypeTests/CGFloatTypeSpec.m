@@ -151,4 +151,11 @@ describe(@"CGFloat trigonometric functions", ^{
     });
 });
 
+describe(@"CGFloat absolute value functions", ^{
+    it(@"should compute the absolute value of a CGFloat", ^{
+        CGFloat value = absCGFloat(-0.123);
+        expect(value).to.equal(0.123);
+    });
+});
+
 SpecEnd
