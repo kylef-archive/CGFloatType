@@ -90,6 +90,11 @@ describe(@"CGFloat Rounding and Remainder Functions", ^{
         CGFloat value = roundCGFloat(5.6);
         expect(value).to.equal(6.0);
     });
+
+    it(@"should return the remainder", ^{
+        CGFloat value = modCGFloat(1.5, 3);
+        expect(value).to.equal(1.5);
+    });
 });
 
 describe(@"CGFloat trigonometric functions", ^{

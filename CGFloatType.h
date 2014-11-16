@@ -62,6 +62,9 @@ extern CGFloat floorCGFloat(CGFloat x);
 /// Round to closest integral value to x
 extern CGFloat roundCGFloat(CGFloat x);
 
+/// Returns the floating-point remainder of numer/denom
+extern CGFloat modCGFloat(CGFloat numer, CGFloat denom);
+
 #pragma mark - CGFloat Trigonometric Functions
 
 /// Computes the cosine of x (measured in radians)

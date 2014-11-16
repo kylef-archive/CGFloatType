@@ -97,6 +97,14 @@ extern CGFloat roundCGFloat(CGFloat x) {
 #endif	
 }
 
+extern CGFloat modCGFloat(CGFloat numer, CGFloat denom) {
+#if CGFLOAT_IS_DOUBLE
+    return fmod(numer, denom);
+#else
+    return fmodf(numer, denom);
+#endif
+}
+
 #pragma mark - CGFloat Trigonometric Functions
 
 CGFloat cosCGFloat(CGFloat x) {
