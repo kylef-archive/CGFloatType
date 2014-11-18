@@ -163,4 +163,11 @@ describe(@"CGFloat absolute value functions", ^{
     });
 });
 
+describe(@"CGFloat square root functions", ^{
+  it(@"should compute the square root of a CGFloat", ^{
+    CGFloat value = sqrtCGFloat(9.0);
+    expect(value).to.equal(3.0);
+  });
+});
+
 SpecEnd
