@@ -92,3 +92,8 @@ extern CGFloat atan2CGFloat(CGFloat y, CGFloat x);
 
 /// Return the absolute value (magnitude) of x
 extern CGFloat absCGFloat(CGFloat x);
+
+#pragma mark - CGFloat Square Root Value Functions
+
+///Computes the square root of x
+extern CGFloat sqrtCGFloat(CGFloat x);
