@@ -172,3 +172,13 @@ CGFloat absCGFloat(CGFloat x) {
     return fabsf(x);
 #endif
 }
+
+#pragma mark - CGFloat Square Root Value Functions
+
+CGFloat sqrtCGFloat(CGFloat x) {
+#if CGFLOAT_IS_DOUBLE
+  return sqrt(x);
+#else
+  return sqrtf(x);
+#endif
+}
