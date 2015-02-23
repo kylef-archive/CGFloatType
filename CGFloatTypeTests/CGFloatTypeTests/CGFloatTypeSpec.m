@@ -90,6 +90,16 @@ describe(@"CGFloat Rounding and Remainder Functions", ^{
         CGFloat value = roundCGFloat(5.6);
         expect(value).to.equal(6.0);
     });
+    
+    it(@"should round to the nearest integer (smallest in this case) towards zero to CGFloat x", ^{
+        CGFloat value = truncCGFloat(5.7);
+        expect(value).to.equal(5.0);
+    });
+    
+    it(@"should round to the nearest integer (largest in this case) towards zero to CGFloat x", ^{
+        CGFloat value = truncCGFloat(-5.7);
+        expect(value).to.equal(-5.0);
+    });
 
     it(@"should return the remainder", ^{
         CGFloat value = modCGFloat(1.5, 3);

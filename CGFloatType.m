@@ -97,6 +97,14 @@ extern CGFloat roundCGFloat(CGFloat x) {
 #endif	
 }
 
+extern CGFloat truncCGFloat(CGFloat x) {
+#if CGFLOAT_IS_DOUBLE
+    return trunc(x);
+#else
+    return truncf(x);
+#endif	
+}
+
 extern CGFloat modCGFloat(CGFloat numer, CGFloat denom) {
 #if CGFLOAT_IS_DOUBLE
     return fmod(numer, denom);

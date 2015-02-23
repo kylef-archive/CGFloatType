@@ -62,6 +62,9 @@ extern CGFloat floorCGFloat(CGFloat x);
 /// Round to closest integral value to x
 extern CGFloat roundCGFloat(CGFloat x);
 
+/// Round to the nearest integer towards zero to x. 
+extern CGFloat truncCGFloat(CGFloat x);
+
 /// Returns the floating-point remainder of numer/denom
 extern CGFloat modCGFloat(CGFloat numer, CGFloat denom);
 
