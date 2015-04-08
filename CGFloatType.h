@@ -98,5 +98,16 @@ extern CGFloat absCGFloat(CGFloat x);
 
 #pragma mark - CGFloat Square Root Value Functions
 
-///Computes the square root of x
+/// Computes the square root of x
 extern CGFloat sqrtCGFloat(CGFloat x);
+
+#pragma mark - CGFloat Range Value Functions
+
+/// Returns the minimum value.
+extern CGFloat minCGFloat(CGFloat a, CGFloat b);
+
+/// Returns the maximum value.
+extern CGFloat maxCGFloat(CGFloat a, CGFloat b);
+
+/// Returns a clamped value with a specified minimum and maximum.
+extern CGFloat clampCGFloat(CGFloat x, CGFloat min, CGFloat max);

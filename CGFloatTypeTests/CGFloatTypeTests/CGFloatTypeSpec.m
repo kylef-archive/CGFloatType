@@ -180,4 +180,31 @@ describe(@"CGFloat square root functions", ^{
   });
 });
 
+describe(@"CGFloat Range Value Functions", ^{
+    it(@"should compute the minimum value of a CGFloat", ^{
+        CGFloat value = minCGFloat(0.0, 0.5);
+        expect(value).to.equal(0.0);
+    });
+
+    it(@"should compute the maximum value of a CGFloat", ^{
+        CGFloat value = maxCGFloat(0.0, 0.5);
+        expect(value).to.equal(0.5);
+    });
+
+    it(@"should clamp to the lowest the value of a CGFloat", ^{
+        CGFloat value = clampCGFloat(0.0, 0.5, 1.0);
+        expect(value).to.equal(0.5);
+    });
+
+    it(@"should clamp to the highest the value of a CGFloat", ^{
+        CGFloat value = clampCGFloat(1.2, 0.5, 1.0);
+        expect(value).to.equal(1.0);
+    });
+
+    it(@"should not alter the value if within clamp range", ^{
+        CGFloat value = clampCGFloat(0.5, 0.0, 1.0);
+        expect(value).to.equal(0.5);
+    });
+});
+
 SpecEnd

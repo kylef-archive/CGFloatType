@@ -190,3 +190,29 @@ CGFloat sqrtCGFloat(CGFloat x) {
   return sqrtf(x);
 #endif
 }
+
+#pragma mark - CGFloat Range Value Functions
+
+CGFloat minCGFloat(CGFloat a, CGFloat b) {
+#if CGFLOAT_IS_DOUBLE
+    return fmin(a, b);
+#else
+    return fminf(a, b);
+#endif
+}
+
+CGFloat maxCGFloat(CGFloat a, CGFloat b) {
+#if CGFLOAT_IS_DOUBLE
+    return fmax(a, b);
+#else
+    return fmaxf(a, b);
+#endif
+}
+
+CGFloat clampCGFloat(CGFloat x, CGFloat min, CGFloat max) {
+#if CGFLOAT_IS_DOUBLE
+    return fmax(min, fmin(x, max));
+#else
+    return fmaxf(min, fminf(x, max));
+#endif
+}
