@@ -18,7 +18,7 @@ describe(@"CGFloat constants", ^{
 #ifdef CGFLOAT_IS_DOUBLE
         expect(CGFLOAT_EPSILON).to.equal(DBL_EPSILON);
 #else
-        expect(CGFLOAT_EPSILON).to.equal(FLT_EPSILON);CGFloatType.h
+        expect(CGFLOAT_EPSILON).to.equal(FLT_EPSILON);
 #endif
     });
 });
