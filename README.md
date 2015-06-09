@@ -12,9 +12,9 @@ This may become cumbersome when you are developing an application where you
 want a single code base which builds for both 32-bit and 64-bit such as when
 developing against the 32-bit simulator and deploying arm64.
 
-CGFloatType is a simple pod which provides helper methods on `NSNumber` to help
-deal with this. Along with providing various rounding, and various other math
-functions which accept a `CGFloat`.
+CGFloatType is a simple library which provides methods on `NSNumber` to help
+deal with this. Along with providing various math and rounding functions
+which accepts `CGFloat`.
 
 This helps you change:
 
