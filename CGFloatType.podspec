@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = 'CGFloatType'
-  spec.version = '1.2.0'
+  spec.version = '1.3.0'
   spec.summary = 'Provides various methods and functions to deal with CGFloat on 64-bit systems (CGFLOAT_IS_DOUBLE).'
 
   spec.description  = <<-DESC
@@ -19,7 +19,7 @@ Pod::Spec.new do |spec|
 
   spec.homepage = 'https://github.com/kylef/CGFloatType'
   spec.license = { :type => 'BSD', :file => 'LICENSE' }
-  spec.author = { 'Kyle Fuller' => 'inbox@kylefuller.co.uk' }
+  spec.author = { 'Kyle Fuller' => 'kyle@fuller.li' }
   spec.social_media_url = 'http://twitter.com/kylefuller'
   spec.source = { :git => 'https://github.com/kylef/CGFloatType.git', :tag => "#{spec.version}" }
   spec.source_files = 'CGFloatType.{h,m}'
