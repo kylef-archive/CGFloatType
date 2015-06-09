@@ -13,6 +13,16 @@
 
 SpecBegin(CGFloatType)
 
+describe(@"CGFloat constants", ^{
+    it(@"epsilon", ^{
+#ifdef CGFLOAT_IS_DOUBLE
+        expect(CGFLOAT_EPSILON).to.equal(DBL_EPSILON);
+#else
+        expect(CGFLOAT_EPSILON).to.equal(FLT_EPSILON);CGFloatType.h
+#endif
+    });
+});
+
 describe(@"CGFloat conversion methods", ^{
     it(@"should convert an NSInteger to a CGFloat", ^{
         NSInteger value = 32;

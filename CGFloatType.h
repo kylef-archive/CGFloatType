@@ -7,6 +7,9 @@
 
 #import <Foundation/Foundation.h>
 
+/// CGFLOAT_EPSILON the minimum positive number such that 1.0 + CGFLOAT_EPSILON != 1.0.
+extern CGFloat const CGFLOAT_EPSILON;
+
 #pragma mark - CGFloat conversion
 
 /// Returns a CGFloat from an NSInteger

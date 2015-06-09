@@ -7,6 +7,12 @@
 
 #import "CGFloatType.h"
 
+#ifdef CGFLOAT_IS_DOUBLE
+CGFloat const CGFLOAT_EPSILON = DBL_EPSILON;
+#else
+CGFloat const CGFLOAT_EPSILON = FLT_EPSILON;
+#endif
+
 #pragma mark - CGFloat Conversion
 
 CGFloat CGFloatWithInteger(NSInteger value) {
