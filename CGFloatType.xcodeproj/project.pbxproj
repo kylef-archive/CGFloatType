@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		270A32EE1B9B992F00AEE90E /* CGFloatType.m in Sources */ = {isa = PBXBuildFile; fileRef = 270A32ED1B9B992F00AEE90E /* CGFloatType.m */; };
+		27BED7081B9B98CC00363126 /* CGFloatType.h in Headers */ = {isa = PBXBuildFile; fileRef = 27BED7071B9B98CC00363126 /* CGFloatType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27BED70E1B9B98CC00363126 /* CGFloatType.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27BED7021B9B98CC00363126 /* CGFloatType.framework */; };
+		27BED71F1B9B9A3300363126 /* CGFloatTypeSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BED71E1B9B9A3300363126 /* CGFloatTypeSpec.m */; };
+		5314A3AB68FC63ED2A14909D /* Pods_CGFloatTypeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EA10C20BC4B187755ACB801 /* Pods_CGFloatTypeTests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27BED70F1B9B98CC00363126 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27BED6F91B9B98CC00363126 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27BED7011B9B98CC00363126;
+			remoteInfo = CGFloatType;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		270A32ED1B9B992F00AEE90E /* CGFloatType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGFloatType.m; sourceTree = "<group>"; };
+		27BED7021B9B98CC00363126 /* CGFloatType.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CGFloatType.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27BED7061B9B98CC00363126 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27BED7071B9B98CC00363126 /* CGFloatType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGFloatType.h; sourceTree = "<group>"; };
+		27BED70D1B9B98CC00363126 /* CGFloatTypeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CGFloatTypeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27BED7131B9B98CC00363126 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27BED71E1B9B9A3300363126 /* CGFloatTypeSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGFloatTypeSpec.m; sourceTree = "<group>"; };
+		9C62A1FA69B1F8812C2911A5 /* Pods-CGFloatTypeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGFloatTypeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CGFloatTypeTests/Pods-CGFloatTypeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9EA10C20BC4B187755ACB801 /* Pods_CGFloatTypeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CGFloatTypeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6C2423AF1C33F1445FCCA68 /* Pods-CGFloatTypeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGFloatTypeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CGFloatTypeTests/Pods-CGFloatTypeTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27BED6FE1B9B98CC00363126 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27BED70A1B9B98CC00363126 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27BED70E1B9B98CC00363126 /* CGFloatType.framework in Frameworks */,
+				5314A3AB68FC63ED2A14909D /* Pods_CGFloatTypeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27BED6F81B9B98CC00363126 = {
+			isa = PBXGroup;
+			children = (
+				27BED7041B9B98CC00363126 /* CGFloatType */,
+				27BED7111B9B98CC00363126 /* CGFloatTypeTests */,
+				27BED7031B9B98CC00363126 /* Products */,
+				A5273F53ADC0B8B11358C03A /* Pods */,
+				45639488FD5856DEA70793E2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		27BED7031B9B98CC00363126 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27BED7021B9B98CC00363126 /* CGFloatType.framework */,
+				27BED70D1B9B98CC00363126 /* CGFloatTypeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27BED7041B9B98CC00363126 /* CGFloatType */ = {
+			isa = PBXGroup;
+			children = (
+				27BED7071B9B98CC00363126 /* CGFloatType.h */,
+				270A32ED1B9B992F00AEE90E /* CGFloatType.m */,
+				27BED7051B9B98CC00363126 /* Supporting Files */,
+			);
+			path = CGFloatType;
+			sourceTree = "<group>";
+		};
+		27BED7051B9B98CC00363126 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27BED7061B9B98CC00363126 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		27BED7111B9B98CC00363126 /* CGFloatTypeTests */ = {
+			isa = PBXGroup;
+			children = (
+				27BED71E1B9B9A3300363126 /* CGFloatTypeSpec.m */,
+				27BED7121B9B98CC00363126 /* Supporting Files */,
+			);
+			path = CGFloatTypeTests;
+			sourceTree = "<group>";
+		};
+		27BED7121B9B98CC00363126 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27BED7131B9B98CC00363126 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		45639488FD5856DEA70793E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9EA10C20BC4B187755ACB801 /* Pods_CGFloatTypeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5273F53ADC0B8B11358C03A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C62A1FA69B1F8812C2911A5 /* Pods-CGFloatTypeTests.debug.xcconfig */,
+				F6C2423AF1C33F1445FCCA68 /* Pods-CGFloatTypeTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		27BED6FF1B9B98CC00363126 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27BED7081B9B98CC00363126 /* CGFloatType.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		27BED7011B9B98CC00363126 /* CGFloatType */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27BED7181B9B98CC00363126 /* Build configuration list for PBXNativeTarget "CGFloatType" */;
+			buildPhases = (
+				27BED6FD1B9B98CC00363126 /* Sources */,
+				27BED6FE1B9B98CC00363126 /* Frameworks */,
+				27BED6FF1B9B98CC00363126 /* Headers */,
+				27BED7001B9B98CC00363126 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CGFloatType;
+			productName = CGFloatType;
+			productReference = 27BED7021B9B98CC00363126 /* CGFloatType.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		27BED70C1B9B98CC00363126 /* CGFloatTypeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27BED71B1B9B98CC00363126 /* Build configuration list for PBXNativeTarget "CGFloatTypeTests" */;
+			buildPhases = (
+				FCB9A97230A9D421658887A0 /* Check Pods Manifest.lock */,
+				27BED7091B9B98CC00363126 /* Sources */,
+				27BED70A1B9B98CC00363126 /* Frameworks */,
+				27BED70B1B9B98CC00363126 /* Resources */,
+				297707A954E4028615605345 /* Copy Pods Resources */,
+				B88CC49FEE35A00864F7DFFC /* Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27BED7101B9B98CC00363126 /* PBXTargetDependency */,
+			);
+			name = CGFloatTypeTests;
+			productName = CGFloatTypeTests;
+			productReference = 27BED70D1B9B98CC00363126 /* CGFloatTypeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27BED6F91B9B98CC00363126 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Cocode;
+				TargetAttributes = {
+					27BED7011B9B98CC00363126 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					27BED70C1B9B98CC00363126 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 27BED6FC1B9B98CC00363126 /* Build configuration list for PBXProject "CGFloatType" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 27BED6F81B9B98CC00363126;
+			productRefGroup = 27BED7031B9B98CC00363126 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27BED7011B9B98CC00363126 /* CGFloatType */,
+				27BED70C1B9B98CC00363126 /* CGFloatTypeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27BED7001B9B98CC00363126 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27BED70B1B9B98CC00363126 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		297707A954E4028615605345 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CGFloatTypeTests/Pods-CGFloatTypeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B88CC49FEE35A00864F7DFFC /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CGFloatTypeTests/Pods-CGFloatTypeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCB9A97230A9D421658887A0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27BED6FD1B9B98CC00363126 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				270A32EE1B9B992F00AEE90E /* CGFloatType.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27BED7091B9B98CC00363126 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27BED71F1B9B9A3300363126 /* CGFloatTypeSpec.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27BED7101B9B98CC00363126 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27BED7011B9B98CC00363126 /* CGFloatType */;
+			targetProxy = 27BED70F1B9B98CC00363126 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		27BED7161B9B98CC00363126 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		27BED7171B9B98CC00363126 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		27BED7191B9B98CC00363126 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = CGFloatType/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		27BED71A1B9B98CC00363126 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = CGFloatType/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		27BED71C1B9B98CC00363126 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C62A1FA69B1F8812C2911A5 /* Pods-CGFloatTypeTests.debug.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CGFloatTypeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		27BED71D1B9B98CC00363126 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6C2423AF1C33F1445FCCA68 /* Pods-CGFloatTypeTests.release.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CGFloatTypeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27BED6FC1B9B98CC00363126 /* Build configuration list for PBXProject "CGFloatType" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27BED7161B9B98CC00363126 /* Debug */,
+				27BED7171B9B98CC00363126 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27BED7181B9B98CC00363126 /* Build configuration list for PBXNativeTarget "CGFloatType" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27BED7191B9B98CC00363126 /* Debug */,
+				27BED71A1B9B98CC00363126 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27BED71B1B9B98CC00363126 /* Build configuration list for PBXNativeTarget "CGFloatTypeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27BED71C1B9B98CC00363126 /* Debug */,
+				27BED71D1B9B98CC00363126 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27BED6F91B9B98CC00363126 /* Project object */;
+}
