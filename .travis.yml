@@ -1,5 +1,0 @@
-language: objective-c
-script:
-  - xcodebuild -workspace CGFloatType.xcworkspace -scheme 'CGFloatType' test
-  - pod lib lint
-
