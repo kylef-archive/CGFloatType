@@ -22,6 +22,7 @@ Pod::Spec.new do |spec|
   spec.author = { 'Kyle Fuller' => 'kyle@fuller.li' }
   spec.social_media_url = 'http://twitter.com/kylefuller'
   spec.source = { :git => 'https://github.com/kylef/CGFloatType.git', :tag => "#{spec.version}" }
+  spec.frameworks = ['CoreGraphics']
   spec.source_files = 'CGFloatType/CGFloatType.{h,m}'
   spec.requires_arc = true
 end

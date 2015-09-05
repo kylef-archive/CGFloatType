@@ -5,7 +5,8 @@
 //  Copyright (c) 2014 Kyle Fuller. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+@import Foundation;
+@import CoreGraphics;
 
 //! Project version number for CGFloatType.
 FOUNDATION_EXPORT double CGFloatTypeVersionNumber;
