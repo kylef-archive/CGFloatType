@@ -56,6 +56,23 @@ describe(@"CGFloat conversion methods", ^{
     });
 });
 
+describe(@"CGFloat comparison methods", ^{
+    it(@"should return true when comparing two equal floats", ^{
+        BOOL equals = CGFloatEquals(CGFloatWithFloat(0.7f), CGFloatWithFloat(0.7f));
+        expect(equals).to.beTruthy();
+    });
+
+    it(@"should return true when comparing two equal doubles", ^{
+        BOOL equals = CGFloatEquals(CGFloatWithDouble(0.7), CGFloatWithDouble(0.7));
+        expect(equals).to.beTruthy();
+    });
+
+    it(@"should return false when comparing numbers with diferent precisions", ^{
+        BOOL equals = CGFloatEquals(CGFloatWithFloat(0.7f), CGFloatWithDouble(0.7));
+        expect(equals).to.beFalsy();
+    });
+});
+
 describe(@"NSNumber", ^{
     it(@"should create a number with a CGFloat", ^{
         NSNumber *number = [NSNumber numberWithCGFloat:CGFLOAT_MAX];
