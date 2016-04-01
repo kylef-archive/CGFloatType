@@ -47,6 +47,12 @@ CGFloat CGFloatWithFloat(float value) {
 #endif
 }
 
+#pragma mark - CGFloat comparison
+
+BOOL CGFloatEquals(CGFloat x, CGFloat y) {
+    return absCGFloat(x - y) < CGFLOAT_EPSILON;
+}
+
 #pragma mark - CGFloat NSNumber
 
 @implementation NSNumber (CGFloatType)

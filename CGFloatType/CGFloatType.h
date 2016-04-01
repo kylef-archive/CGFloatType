@@ -37,6 +37,9 @@ CGFloat CGFloatWithDouble(double value);
 /// Returns a CGFloat from a float
 CGFloat CGFloatWithFloat(float value);
 
+#pragma mark - CGFloat comparison
+
+extern BOOL CGFloatEquals(CGFloat x, CGFloat y);
 
 #pragma mark - NSNumber+CGFloatType
 
